@@ -34,7 +34,7 @@ public class Workshop11Application {
 			portNumber = System.getenv("PORT");
 
 			// if os env var is null or empty, default to the default port
-			if (portNumber = null) {
+			if (portNumber == null) {
 			portNumber =  DEFAULT_PORT;
 			}
 		} else {
