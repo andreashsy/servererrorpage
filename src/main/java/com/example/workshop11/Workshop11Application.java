@@ -17,7 +17,7 @@ public class Workshop11Application {
 	// Instantiate logger
 	private static final Logger logger = LoggerFactory.getLogger(Workshop11Application.class);
 	// Default fallback port by spring application
-	private static final String DEFAULT_PORT = "8082";
+	private static final String DEFAULT_PORT = "3000";
 	public static void main(String[] args) {
 		logger.info("workshop 11");
 		// init spring app
